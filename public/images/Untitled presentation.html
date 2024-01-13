@@ -1,0 +1,92 @@
+<!doctype html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-itunes-app" content="app-id=1551335606">
+    <meta name="robots" content="noindex">
+    <title>Pitch</title>
+    <!-- HEAD CONTENT -->
+    <link rel="preload" href="/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/fonts/markpro-heavy.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/css/app.css">
+    <link rel="shortcut icon" href="/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta content="Easily build and share beautiful presentations with Pitch." name="description">
+    <meta content="Pitch" property="og:site_name">
+    <meta content="@pitch" property="twitter:site">
+    <meta content="Easily build and share beautiful presentations with Pitch."
+          property="og:description">
+    <!-- no meta available -->
+  </head>
+  <body>
+    <div id="app">
+      <div class="app" id="initial-spinner">
+        <div class="main">
+          <div class="page" style="background: #fafafc;">
+            <div class="content center">
+              <div class="spinner">
+                <svg class="spinner-circular" viewBox="24 24 48 48">
+                  <circle class="spinner-path" cx="48" cy="48" r="18" fill="none" stroke-width="4" stroke-miterlimit="4" style="stroke: #586EE0"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modals"></div>
+    <div id="dev-panel"></div>
+    <script data-hash="sha256-bLjzB0zIlRb0LQqIZEq1v5RK2Se/XTnmNbooqHCacv4=">
+      var scripts = [ '/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/js/config.js' ];
+            scripts.forEach(function(scriptUrl) {
+              var s = document.createElement('script');
+              s.src = scriptUrl;
+              s.async = false;
+              document.body.appendChild(s);
+            });
+    </script>
+    <script data-hash="sha256-yBTwQ2iZEmWDVkxkqjeCpLXbiuvmTvLJIIVr+2CvuN4=" type="text/javascript">
+      window.AppcuesSettings = {
+        enableURLDetection: true
+      };
+    </script>
+    <script data-hash="sha256-HTQ+/c5GnhirH5QTFUyh0KADs7rE9AgEi8e7GsDJTmI=">
+      var scripts = [ 'https://fast.appcues.com/116403.js', '/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/js/l10n/base.js', '/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/js/doublebundle.js', '/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/js/preload.js' ];
+      scripts.forEach(function(scriptUrl) {
+        var s = document.createElement('script');
+        s.src = scriptUrl;
+        s.async = false;
+        document.body.appendChild(s);
+      });
+    </script>
+    <script data-hash="sha256-+65lqnGslyKdjNcNSkxZBJgI4FduN+P271HH3ytghjs=">
+      var scriptUrl = '/static/app/17cfdf48-fd3c-43b4-bd1c-f25c02892f84/js/app.js';
+      var s = document.createElement('script');
+      s.src = scriptUrl;
+      s.async = false;
+      document.body.appendChild(s);
+      s.addEventListener("load", scriptLoaded, false);
+
+      function scriptLoaded() {
+        pitch.app.init();
+      }
+    </script>
+    <!-- Usage: Google Spreadsheet picker in chart import -->
+    <script data-hash="sha256-7pS1nv/i0k8EjWHktwkqLsItRAZF+I4vA/iXAoVBvx8=">
+     var s = document.createElement("script");
+     s.src = "https://apis.google.com/js/api.js";
+     document.body.appendChild(s);
+    </script>
+    <!-- Usage: Google auth in chart import -->
+    <script data-hash="sha256-1r6ZG8WZ8xgujfpd9sb1dJpq8fG9CPMvuj3LFX1hauw=">
+     var s = document.createElement("script");
+     s.src = "https://accounts.google.com/gsi/client";
+     document.body.appendChild(s);
+    </script>
+    <!-- PRELOAD DATA -->
+  </body>
+</html>
